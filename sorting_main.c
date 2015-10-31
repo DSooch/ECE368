@@ -3,7 +3,7 @@
 //  establish the main (menu driven) program to help with
 //  project 1.
 //  
-//  compile:  gcc -Wall -Werror -O3 sorting.c sorting_main.c -o proj1
+//  compile:  gcc -Wall -Werror -lm -O3 sorting.c sorting_main.c -o proj1
 //------------------------------------------------------------
 
 #include <stdio.h>
@@ -11,6 +11,7 @@
 #include <sys/time.h>
 #include <sys/resource.h>
 #include <time.h>
+#include <math.h>
 #include "sorting.h"
 
 #ifndef CLOCKS_PER_SEC
